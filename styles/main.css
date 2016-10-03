@@ -1,0 +1,74 @@
+body {
+	font-family: Arial;
+}
+main {
+	padding-top: 130px;
+}
+
+nav {
+	height: 60px;
+	background-color: lightgrey;
+	position: fixed;
+	width: 100%;
+	font-size: 20px;
+}
+
+nav p {
+	display: inline;
+	position: relative;
+	left: 10px;
+}
+
+nav ul {
+	/* float: right;
+	padding-right: 10px; */
+	position: relative;
+	left: 600px;
+	display: inline-block;
+	list-style: none;
+}
+
+nav li {
+	display: inline-block;
+	margin-right: 10px;
+}
+
+form {
+	padding-left: 70px;
+}
+
+input {
+	display: absolute;
+	font-size: 15px;
+	height: 30px;
+	border: 1px solid lightgrey;
+}
+
+input[type=text] {
+	width: 50%;
+}
+
+.prevnext {
+	padding-left: 35px;
+	padding-top: 50px;
+}
+
+.prevnext li {
+	display: inline-block;
+	border: 1px solid lightgrey;
+	padding: 5px;
+	border-radius: 10%;
+}
+
+.listings {
+	padding-top: 50px;
+	padding-left: 70px;
+	color: lightgrey;
+	font-size: 13px;
+}
+
+.listings span {
+	font-size: 15px;
+	color: blue;
+	font-weight: bold;
+}
